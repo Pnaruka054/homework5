@@ -114,7 +114,7 @@ input::placeholder {
 
 #form button {
   width: 50%;
-  height: 18%;
+  height: 50px;
   border-radius: 20px;
   border: none;
   background-color: rgb(109, 109, 255);
@@ -122,7 +122,6 @@ input::placeholder {
   font-weight: bold;
   font-size: 120%;
   font-family: arial;
-  margin-bottom: 2%;
 }
 
 .inputtext {
@@ -133,7 +132,7 @@ input::placeholder {
   #maindiv {
     margin: 5% auto;
     width: 90%;
-    height: 100%;
+    min-height: 450px;
     display: block;
   }
 
