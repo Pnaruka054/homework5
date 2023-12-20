@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#maindiv {
+  margin: 5%;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.445);
+  height: 78vh;
+  display: flex;
+}
+
+#image {
+  height: 90%;
+  width: 30%;
+  box-sizing: border-box;
+  margin: 2% 0 2% 2%;
+  display: flex;
+  align-items: center;
+}
+
+#imageid {
+  width: 100%;
+  height: 85%;
+}
+
+#signin {
+  min-height: 150px;
+  margin-top: 2%;
+  text-align: center;
+}
+
+#signin p {
+  font-size: 54px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+#icon {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 20px auto 20px auto;
+}
+
+#icon1 {
+  border-radius: 100px;
+  box-shadow: 0 0 5px;
+  width: 50px;
+}
+
+#icon2 {
+  border-radius: 100px;
+  box-shadow: 0 0 5px;
+  width: 50px;
+}
+
+#icon3 {
+  border-radius: 100px;
+  box-shadow: 0 0 5px;
+  width: 50px;
+}
+
+.icon i {
+  font-size: 30px;
+  margin: 10px;
+}
+
+#form {
+  height: 63%;
+  margin-top: 0px;
+  font-size: 20px;
+  line-height: 350%;
+}
+
+#form * {
+  display: block;
+}
+
+#form a {
+  text-align: center;
+
+  font-family: arial;
+  text-decoration: none;
+}
+
+#input-password {
+  margin-bottom: 0px;
+}
+
+#onlydiv {
+  width: 70%;
+  height: 100%;
+}
+
+#form input {
+  width: 90%;
+  height: 50px;
+  font-size: 100%;
+  background-color: rgba(190, 185, 185, 0.281);
+  border: none;
+  border-radius: 6px;
+  padding-left: 20px;
+}
+
+input::placeholder {
+  font-size: 100%;
+}
+
+.input-text {
+  margin: 2.5% auto;
+}
+
+#form button {
+  width: 50%;
+  height: 18%;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(109, 109, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 120%;
+  font-family: arial;
+  margin-bottom: 2%;
+}
+
+.inputtext {
+  margin: auto;
+}
+
+@media only screen and (max-width: 807px) {
+  #maindiv {
+    margin: 5% auto;
+    width: 90%;
+    height: 100%;
+    display: block;
+  }
+
+  #onlydiv {
+    display: block;
+    width: 100%;
+  }
+
+  #signin {
+    display: block;
+    min-height: 150px;
+    padding-top: 4%;
+  }
+
+  #icon {
+    width: auto;
+  }
+
+  #icon div {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  #icon {
+    display: block;
+  }
+
+  #image {
+    display: none;
+  }
+}
