@@ -128,7 +128,7 @@ input::placeholder {
   margin: auto;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
   #maindiv {
     margin: 5% auto;
     width: 90%;
