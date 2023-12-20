@@ -133,7 +133,7 @@ input::placeholder {
     margin: 5% auto;
     width: 90%;
     min-height: auto;
-    height: auto;
+    height: 450px;
     display: block;
   }
 
